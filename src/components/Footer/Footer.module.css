@@ -1,0 +1,10 @@
+.footer {
+  /* margin: auto; */
+  grid-area: footer;
+  /* padding-bottom: 10px; */
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

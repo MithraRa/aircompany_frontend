@@ -1,0 +1,19 @@
+.input {
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  padding: 5px;
+  text-align: center;
+}
+
+
+.input {
+  outline: 0 !important;
+  border: 0;
+  background-color: #ECF1F7;
+}
+
+.input:focus {
+  border: 2px solid #ffdd2d;
+  border-radius: 4px;
+}

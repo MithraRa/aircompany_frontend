@@ -1,0 +1,52 @@
+.header {
+  grid-area: header;
+  height: 60px;
+  border-bottom: 2px solid #D5D5D5;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+.login {
+  width: 80px;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  margin-top: 4px;
+  font-size: 14px;
+  text-align: right;
+  color: #00acee;
+  cursor: pointer;
+  display: block;
+}
+
+.text:hover {
+  color: #00abee7c;
+}
+
+.line {
+  text-decoration: none;
+}
+
+.line:hover {
+  text-decoration: none;
+}
+
+.navigation {
+  width: 100%;
+  gap: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}

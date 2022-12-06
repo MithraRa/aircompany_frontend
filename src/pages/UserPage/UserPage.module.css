@@ -1,0 +1,47 @@
+.userPage {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: ani 1.5s forwards;
+}
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fullname {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px
+}
+
+.form {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px
+}
+
+.name {
+  width: 100%;
+  height: 40px;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.data {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px
+}
+
+.tickets {
+  display: flex;
+  flex-direction: column;
+}
